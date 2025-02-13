@@ -20,6 +20,7 @@ li,ul {
 }
 
 .side-bar-container{
+    border-right: 2px solid rgb(40, 38, 38);
     color: white;
     display: flex;
     flex-direction: column;
@@ -93,4 +94,14 @@ i{
 .news-feed{
     background-color: brown;
     width: 400px;
+}
+
+.secondary-bar-container{
+    width: 250px;
+    color: rgb(228, 228, 228);
+    background-color: rgb(29, 29, 29);
+}
+
+.secondary-bar-tickets{
+    font-size: 0.8em;
 }
